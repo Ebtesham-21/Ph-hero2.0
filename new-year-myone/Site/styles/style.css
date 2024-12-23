@@ -1,0 +1,13 @@
+.hero-content {
+    display: flex;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 800px;
+    height: auto;
+}
+.hero-image, .hero-text {
+    
+}
+
