@@ -1,13 +1,33 @@
-.hero-content {
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.hero-content, .failure-content {
     display: flex;
     align-items: center;
+    justify-content: center;
+
 }
 
-.hero-image img {
+.hero-image,  img {
     width: 800px;
     height: auto;
 }
-.hero-image, .hero-text {
-    
+.hero-image, .hero-text, .failure-text {
+    padding: 10px;
 }
 
+.default-button {
+    background-color: #f4511e;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.custom-lists {
+    list-style-type: none;
+    list-style-image: url("Assets/Images/check-solid.svg" )
+}
